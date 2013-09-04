@@ -22,9 +22,9 @@
 -->
 <config>
     <modules>
-        <Webgp_ItauShopline>
+        <Cepheros_ItauShopline>
             <version>1.0.0</version>          
-        </Webgp_ItauShopline>
+        </Cepheros__ItauShopline>
     </modules>
     <global>
         <models>
@@ -83,22 +83,22 @@
         </routers>
         <translate>
             <modules>
-                <Webgp_ItauShopline>
+                <Cepheros__ItauShopline>
                     <files>
                         <default>Cepheros_ItauShopline.csv</default>
                     </files>
-                </Webgp_ItauShopline>
+                </Cepheros__ItauShopline>
             </modules>
         </translate>
     </frontend>
     <adminhtml>
         <translate>
             <modules>
-                <Webgp_ItauShopline>
+                <Cepheros__ItauShopline>
                     <files>
                         <default>Cepheros_ItauShopline.csv</default>
                     </files>
-                </Webgp_ItauShopline>
+                </Cepheros__ItauShopline>
             </modules>
         </translate>        
     </adminhtml>
