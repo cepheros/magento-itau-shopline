@@ -26,9 +26,10 @@ Alguns Créditos:
 Alan Bueno - http://alanbueno.com.br/
 Por me contratar para desenvolver o módulo e permitir que o mesmo seja distribuido por Open Software License (OSL 3.0)
 
-Baseado nos projetos de: 
+Baseado no projeto de: 
+
 Gabriel Rodrigues Couto - https://github.com/gabrielrcouto/php-itaucripto
-Luciene S.
+
 
 
 
