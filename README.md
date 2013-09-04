@@ -23,10 +23,12 @@ Esse módulo foi testato na versão  1.7.0.2  do Magento e está totalmente func
 Alguns Créditos:
 =====================
 
+Alan Bueno - http://alanbueno.com.br/
+Por me contratar para desenvolver o módulo e permitir que o mesmo seja distribuido por Open Software License (OSL 3.0)
+
 Baseado nos projetos de: 
 Gabriel Rodrigues Couto - https://github.com/gabrielrcouto/php-itaucripto
-
-Luciene S. -  contato@webgp.com.br = http://webgp.com.br
+Luciene S.
 
 
 
