@@ -25,6 +25,7 @@ Alguns Créditos:
 
 Baseado nos projetos de: 
 Gabriel Rodrigues Couto - https://github.com/gabrielrcouto/php-itaucripto
+
 Luciene S. -  contato@webgp.com.br = http://webgp.com.br
 
 
