@@ -24,7 +24,7 @@
     <modules>
         <Cepheros_ItauShopline>
             <version>1.0.0</version>          
-        </Cepheros__ItauShopline>
+        </Cepheros_ItauShopline>
     </modules>
     <global>
         <models>
