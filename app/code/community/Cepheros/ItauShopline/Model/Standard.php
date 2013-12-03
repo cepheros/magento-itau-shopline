@@ -141,8 +141,8 @@ class Cepheros_ItauShopline_Model_Standard extends Mage_Payment_Model_Method_Abs
         } else {
             $email = $order->getCustomerEmail();
         }
-
-    		$cep = substr(eregi_replace ("[^0-9]", "", $a->getPostcode()).'00000000',0,8);
+        $digits = new Zend_Filter_Digits();
+    		$cep = substr($digits->filter($a->getPostcode()).'00000000',0,8);
 
   	    $a_date = explode ("-", date("Y-m-d"));
 	      $s_dt_vencimento = date("dmY", mktime(0, 0, 0, $a_date[1], $a_date[2]+$this->getConfigData('dias_vencimento'), $a_date[0]));
@@ -199,12 +199,6 @@ class Cepheros_ItauShopline_Model_Standard extends Mage_Payment_Model_Method_Abs
     {
          $url='https://shopline.itau.com.br/shopline/shopline.aspx';
          return $url;
-    }
-
-
-    public function getDebug()
-    {
-        return Mage::getStoreConfig('ItauShopline100/wps/debug_flag');
     }
 
 }
