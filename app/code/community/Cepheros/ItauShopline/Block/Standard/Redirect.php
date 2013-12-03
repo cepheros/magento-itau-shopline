@@ -41,6 +41,7 @@ class Cepheros_ItauShopline_Block_Standard_Redirect extends Mage_Core_Block_Abst
         $html .= '<script type="text/javascript">document.getElementById("itaushopline_standard_checkout").submit();</script>';
         $html .= '</body></html>';
 
+        Mage::log('Campos enviados para '. $form->getAction() . ' no redirect do checkout: '.  var_export($standard->getDadosCripto(),true),null, 'itaushopline.log');
         return $html;
     }
     

@@ -201,10 +201,4 @@ class Cepheros_ItauShopline_Model_Standard extends Mage_Payment_Model_Method_Abs
          return $url;
     }
 
-
-    public function getDebug()
-    {
-        return Mage::getStoreConfig('ItauShopline100/wps/debug_flag');
-    }
-
 }
