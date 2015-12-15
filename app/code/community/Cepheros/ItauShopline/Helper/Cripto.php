@@ -12,7 +12,7 @@
  * to license@magentocommerce.com so we can send you a copy immediately.
  *
  *
- * @category     Cepheros
+ * @category     Cepheros 
  * @package      Itaushopline
  * @author         Daniel Chaves <daniel@danielchaves.com.br>
  * @license        http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
@@ -22,10 +22,10 @@ class Cepheros_ItauShopline_Helper_Cripto extends Mage_Core_Helper_Abstract
     
     public $sbox;
     public $key;
-    public $codEmp = 'J0681695310001460000012783';
+    public $codEmp = '';
     public $numPed;
     public $tipPag;
-    public $CHAVE_ITAU = "T312M4D1M0G3M031";
+    public $CHAVE_ITAU = "";
     public $TAM_COD_EMP = 26;
     public $TAM_CHAVE = 16;
     public $dados;
@@ -336,7 +336,7 @@ class Cepheros_ItauShopline_Helper_Cripto extends Mage_Core_Helper_Abstract
         return $this->Converte($str2);
     }
 
-    //$dados, $chave
+	
     public function decripto($paramString1, $paramString2)
     {
         //A chave precisa sempre estar em maiusculo
@@ -399,4 +399,3 @@ class Cepheros_ItauShopline_Helper_Cripto extends Mage_Core_Helper_Abstract
   
 
 }
-
